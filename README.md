@@ -21,7 +21,7 @@ This repository contains my daily Python practice problems from the **Telusko Yo
 
 ---
 
-## 🚀 Problems List
+##  Problems List
 
 ### **Problem 1 – Pattern Printing Dashboard**
 
