@@ -23,19 +23,19 @@ This repository contains my daily Python practice problems from the **Telusko Yo
 
 ##  Problems List
 
-### **Problem 1 – Pattern Printing Dashboard**
+### **Problem 14 – Pattern Printing Dashboard**
 
 * Menu-driven pattern printer (Right-angle, Pyramid, Diamond).
 * Uses: for loop, nested loops, break, continue.
 
-### **Problem 2 – Prime Analyzer**
+### **Problem 15 – Prime Analyzer**
 
 * Finds all primes up to `N` using for-else.
 * Stores in an array and prints count, smallest, largest.
 * Checks if `N` itself is prime.
 
 
-### **Problem 3 – Student Marks with Arrays**
+### **Problem 16 – Student Marks with Arrays**
 
 * Input marks of students, stored in an array.
 * Prints average, highest, lowest.
@@ -43,34 +43,34 @@ This repository contains my daily Python practice problems from the **Telusko Yo
 * Pass used if no student is added.
 
 
-### **Problem 4 – Number Pattern with Conditions**
+### **Problem 17 – Number Pattern with Conditions**
 
 * Input `N`.
 * Skip even numbers using `continue`.
 * Stop if divisible by 13 using `break`.
 * Otherwise print star pattern.
 
-### **Problem 5 – Password Strength Checker**
+### **Problem 18 – Password Strength Checker**
 
 * Checks if password contains digit, uppercase, lowercase, special char.
 * If all present → Strong, else Weak.
 * Empty password handled with pass.
 
 
-### **Problem 6 – Fibonacci Prime Filter**
+### **Problem 19 – Fibonacci Prime Filter**
 
 * Generates first N Fibonacci numbers.
 * Uses for-else to find primes among them.
 * Stores primes in an array.
 
 
-### **Problem 7 – Library Book Borrow System**
+### **Problem 20 – Library Book Borrow System**
 
 * Menu-driven program.
 * Options: Show books, Search, Borrow, Exit.
 * Uses loops, break, continue.
 
-### **Problem 8 – Multiplication Table Manager**
+### **Problem 21 – Multiplication Table Manager**
 
 * Prints multiplication table using for loop.
 * Negative input → exit (break).
