@@ -1,85 +1,115 @@
-#  Python Daily Practice
+# 🐍 Python Daily Practice
 
-This repository contains my daily Python practice problems from the **Telusko YouTube tutorial series** and other sources. 
+This repository contains my daily Python practice problems from the **Telusko YouTube tutorial series** and other sources.
 
-##  Note
+---
+
+## 📌 Note
 - Problems **1 → 13** are available in my previous repository:  
   👉 [AssignmentAB1](https://github.com/sumaiyaahmedpew/AssignmentAB1)  
 - Problems in this repository start from **Problem 14 onwards**.
 
- **Topics Cover Today(21-8-25)**
- 
-* Variables, Data Types, Operators
-* For Loops, Break/Continue/Pass, For-Else
-* Pattern Printing
-* Prime Numbers
-* Arrays & User Input
-* Number System Conversion
-* Bitwise Operators
-* Math Functions
-* Swapping Variables
+---
+
+## 📅 Topics Covered (21-08-2025)
+- Variables, Data Types, Operators  
+- For Loops, Break/Continue/Pass, For-Else  
+- Pattern Printing  
+- Prime Numbers  
+- Arrays & User Input  
+- Number System Conversion  
+- Bitwise Operators  
+- Math Functions  
+- Swapping Variables  
 
 ---
 
-##  Problems List
+## 📅 Topics Covered (23-08-2025)
+- NumPy Basics (Why NumPy, Installing in PyCharm)  
+- Creating Arrays with NumPy  
+- Copying Arrays (shallow vs deep copy)  
+- Working with Matrix in Python  
+- Functions in Python  
+- Function Arguments & Types of Arguments  
+- Global vs Local Variables  
+- Passing List/Array to Functions  
 
-### **Problem 14 – Pattern Printing Dashboard**
+---
 
-* Menu-driven pattern printer (Right-angle, Pyramid, Diamond).
-* Uses: for loop, nested loops, break, continue.
+## 📂 Problems List
 
-### **Problem 15 – Prime Analyzer**
+### 🔹 Problem 14 – Pattern Printing Dashboard
+Menu-driven pattern printer (Right-angle, Pyramid, Diamond).  
+Uses: for loop, nested loops, break, continue.  
 
-* Finds all primes up to `N` using for-else.
-* Stores in an array and prints count, smallest, largest.
-* Checks if `N` itself is prime.
+### 🔹 Problem 15 – Prime Analyzer
+Finds all primes up to N using for-else.  
+Stores in an array and prints count, smallest, largest.  
+Checks if N itself is prime.  
+
+### 🔹 Problem 16 – Student Marks with Arrays
+Input marks of students, stored in an array.  
+Prints average, highest, lowest.  
+Stops if any student fails (<40) using break.  
+Pass used if no student is added.  
+
+### 🔹 Problem 17 – Number Pattern with Conditions
+Input N.  
+Skip even numbers using continue.  
+Stop if divisible by 13 using break.  
+Otherwise print star pattern.  
+
+### 🔹 Problem 18 – Password Strength Checker
+Checks if password contains digit, uppercase, lowercase, special char.  
+If all present → Strong, else Weak.  
+Empty password handled with pass.  
+
+### 🔹 Problem 19 – Fibonacci Prime Filter
+Generates first N Fibonacci numbers.  
+Uses for-else to find primes among them.  
+Stores primes in an array.  
+
+### 🔹 Problem 20 – Library Book Borrow System
+Menu-driven program.  
+Options: Show books, Search, Borrow, Exit.  
+Uses loops, break, continue.  
+
+### 🔹 Problem 21 – Multiplication Table Manager
+Prints multiplication table using for loop.  
+Negative input → exit (break).  
+Zero input → skip (pass).  
+
+### 🔹 Problem 22 – Array Statistics Dashboard
+Menu options: Show all, Odd/Even, Prime numbers, Reverse, Exit.  
+Uses arrays, for-else, break/continue.  
+
+---
+
+### 🔹 Problem 23 – Student Result Analyzer (NumPy + Functions)
+Stores marks of students in NumPy array.  
+Functions: subject-wise average, highest, lowest.  
+Student totals, averages, topper detection.  
+Demonstrates positional, keyword, and default arguments.  
+
+### 🔹 Problem 24 – Image Filter Simulator (Matrix with NumPy)
+3×3 NumPy matrix as grayscale image.  
+Functions: Brighten, Darken, Transpose.  
+Demonstrates array manipulation inside functions.  
+
+### 🔹 Problem 25 – Array Copy & Independence Check
+Creates shallow and deep copies of NumPy arrays.  
+Shows how shallow copy changes with original, but deep copy remains independent.  
+Wrapped in function `check_copy_behavior()`.  
+
+### 🔹 Problem 26 – Bank Account Manager (Global vs Local)
+Global balance variable with deposit, withdraw, check.  
+Demonstrates global keyword and local shadowing.  
+
+### 🔹 Problem 27 – Polynomial Calculator (NumPy + Functions)
+Takes two polynomials as NumPy arrays.  
+Functions for addition, subtraction, multiplication (using `np.poly*`).  
+Pretty print in polynomial form (e.g., `3x² + 2x + 1`).  
 
 
-### **Problem 16 – Student Marks with Arrays**
-
-* Input marks of students, stored in an array.
-* Prints average, highest, lowest.
-* Stops if any student fails (<40) using break.
-* Pass used if no student is added.
-
-
-### **Problem 17 – Number Pattern with Conditions**
-
-* Input `N`.
-* Skip even numbers using `continue`.
-* Stop if divisible by 13 using `break`.
-* Otherwise print star pattern.
-
-### **Problem 18 – Password Strength Checker**
-
-* Checks if password contains digit, uppercase, lowercase, special char.
-* If all present → Strong, else Weak.
-* Empty password handled with pass.
-
-
-### **Problem 19 – Fibonacci Prime Filter**
-
-* Generates first N Fibonacci numbers.
-* Uses for-else to find primes among them.
-* Stores primes in an array.
-
-
-### **Problem 20 – Library Book Borrow System**
-
-* Menu-driven program.
-* Options: Show books, Search, Borrow, Exit.
-* Uses loops, break, continue.
-
-### **Problem 21 – Multiplication Table Manager**
-
-* Prints multiplication table using for loop.
-* Negative input → exit (break).
-* Zero input → skip (pass).
-
-
-### **Problem 22 – Array Statistics Dashboard**
-
-* Menu options: Show all, Odd/Even, Prime numbers, Reverse, Exit.
-* Uses arrays, for-else, break/continue.
 
 
