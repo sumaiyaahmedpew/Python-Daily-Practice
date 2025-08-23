@@ -77,7 +77,7 @@ This repository contains my daily Python practice problems from the **Telusko Yo
 * Zero input → skip (pass).
 
 
-### **Problem 9 – Array Statistics Dashboard**
+### **Problem 22 – Array Statistics Dashboard**
 
 * Menu options: Show all, Odd/Even, Prime numbers, Reverse, Exit.
 * Uses arrays, for-else, break/continue.
