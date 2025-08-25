@@ -36,6 +36,16 @@ This repository contains my daily Python practice problems from the **Telusko Yo
 
 ---
 
+## 📅 Topics Covered (25-08-2025)
+- Fibonacci Sequence  
+- Factorial  
+- Recursion  
+- Factorial using Recursion  
+- Anonymous Functions (Lambda)  
+- Filter, Map, Reduce  
+- Decorators  
+
+
 ## 📂 Problems List
 
 ### 🔹 Problem 14 – Pattern Printing Dashboard
@@ -83,8 +93,6 @@ Zero input → skip (pass).
 Menu options: Show all, Odd/Even, Prime numbers, Reverse, Exit.  
 Uses arrays, for-else, break/continue.  
 
----
-
 ### 🔹 Problem 23 – Student Result Analyzer (NumPy + Functions)
 Stores marks of students in NumPy array.  
 Functions: subject-wise average, highest, lowest.  
@@ -110,6 +118,41 @@ Takes two polynomials as NumPy arrays.
 Functions for addition, subtraction, multiplication (using `np.poly*`).  
 Pretty print in polynomial form (e.g., `3x² + 2x + 1`).  
 
+### 🔹 Problem 28 – Recursive Math Utility
+Implements three recursive functions:  
+- Factorial of a number  
+- Nth Fibonacci term  
+- Sum of digits of a number  
+Handles negative inputs gracefully.  
+
+
+### 🔹 Problem 29 – Prime & Fibonacci Analyzer with Lambda + FMR
+- Generates first N Fibonacci numbers.  
+- Uses **filter + lambda** to extract prime Fibonacci numbers.  
+- Uses **map + lambda** to square all Fibonacci numbers.  
+- Uses **reduce** to calculate sum of all Fibonacci numbers.  
+
+### 🔹 Problem 30 – Student Grade System with Decorators
+- Function `calculate_grade(marks)` returns grade.  
+- Decorator `@logger` logs every function call (arguments + result).  
+- Demonstrates decorator usage with student grade calculation.  
+
+
+### 🔹 Problem 31 – Factorial Performance Comparison
+- Two factorial implementations:  
+  1. Recursive factorial  
+  2. Lambda + reduce factorial  
+- Uses `time` module to compare execution speed.  
+- Runs performance test for N = 10, 50, 100.  
+
+
+### 🔹 Problem 32 – Custom Pipeline using Map/Filter/Reduce
+- Takes list of numbers.  
+- Pipeline:  
+  - **map** → double each number  
+  - **filter** → keep only odd numbers  
+  - **reduce** → product of remaining numbers  
+- Implemented in reusable function `process_numbers(lst)`.  
 
 
 
